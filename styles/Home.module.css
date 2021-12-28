@@ -1,0 +1,47 @@
+.nav {
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  color: var(--primary);
+}
+
+.nav .menuBtn:hover {
+  background-color: var(--hover-color);
+}
+
+.nav .links {
+  background-color: var(--hover-color);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav .links a:hover {
+  background-color: var(--hover-color);
+}
+
+.hero {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.hero form button {
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid transparent;
+}
+
+.hero form button:hover {
+  background-color: rgba(var(--p-col-code), 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+/*# sourceMappingURL=Home.module.css.map */
